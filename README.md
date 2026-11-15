@@ -16,7 +16,7 @@
 
 ## 發佈到 GitHub Pages
 
-將專案推送至 GitHub repository 的 `main` 分支後，`.github/workflows/pages.yml` 會使用 GitHub Actions 部署網站。若這是第一次部署，請在 repository 的 **Settings → Pages** 將部署來源設為 **GitHub Actions**。`index.html` 位於根目錄，網站使用相對資源路徑，可由 GitHub Pages 提供。
+將專案推送至 GitHub repository 的 `main` 分支後，`.github/workflows/pages.yml` 會使用 GitHub Actions 部署網站。repository 的 Pages 部署來源需設為 **GitHub Actions**；之後每次更新 `main` 都會自動重新部署。`index.html` 位於根目錄，網站使用相對資源路徑，可由 GitHub Pages 提供。
 
 ## 延伸方式
 
